@@ -98,8 +98,7 @@ metadata:
   name: postgres-pv-claim
 spec:
   accessModes:
-    - ReadWriteOnce
-storageClassName: ""    
+    - ReadWriteOnce    
   resources:
     requests:
       storage: 1Gi
