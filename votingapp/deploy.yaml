@@ -99,7 +99,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-storageClassName: gp2    
+storageClassName: ""    
   resources:
     requests:
       storage: 1Gi
